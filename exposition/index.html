@@ -1,0 +1,134 @@
+<!DOCTYPE html>	
+<html lang="fr">
+	<head>
+		<title>Présentation</title>
+		<meta charset="UTF-8">
+		<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body id="exposition">
+		<header >
+            <h1>BRUSSELS EXPERIENCE</h1>
+            <nav id="secondaire">
+                <ul>
+                    <li><a href="index.html">Présentation</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                </ul>
+            </nav>  
+            <div class="thehack"><img src="../images/the-hack.png" alt="drawn word the hack"/></div>
+		</header>
+        <nav id="principal">
+            <ul>
+                <li><a href="../index.html"> Accueil</a></li>
+                <li><a href="index.html"> Exposition</a></li>
+                <li><a href="../entreprise/index.html"> Entreprise</a></li>
+            </ul>
+            <br style="clear: both;" />
+        </nav>
+        <main>
+            <section>
+                <h2>Introduction</h2>
+                <p>Le jeudi 9 janvier à 14h, dans le cadre d’une formation « développement web », 18 stagiaires qui ne se connaissaient pas 4 jours avant ont participé à un jeu : « Experience Brussels ». A 17 heures, les 18 stagiaires étaient devenus 6 équipes ; ce jeu « Experience Brussels » avait révélé chez ces joueurs les liens qui ont créé des équipes.</p>
+                <p>Je propose de reproduire ce miracle en reproduisant ces conditions au cœur même de la formation : le jeu initial avait pour thème Bruxelles, pour lui donner une raison d’être dans cette formation nous faisons basculer ce thème vers le « Web ».</p>
+                <p>Le principe ? Les professeurs deviennent les éditeurs des questions, les stagiaires les joueurs, les 6 matières enseignées dans la formation nourrissent les sujets des questions du jeu. Chaque début de semaine le hasard numérique découpe le groupe de stagiaires en équipes de 3 qui, en ligne, mettent à l’épreuve leurs connaissances acquises la semaine précédente.</p>
+                <p>Etant au début de ma formation, je ne peux développer le jeu seul aujourd’hui ; je vous propose de détourner les règles du jeu initial au profit de ce nouveau jeu et d’élaborer un cahier des charges qui nous permettra de le réaliser dans le futur.</p>
+            </section>
+            <section>
+                <h2>Règle du jeu</h2>
+                <ol class="listenumerosromains">
+                    <li>Formation des équipes</li>
+                    <li>Plateau de jeu</li>
+                    <li>Parcours</li>
+                    <li>Questions</li>
+                    <li>Pièges</li>
+                    <li>Goaaaalll !!!!</li>
+                </ol>
+                <ol class="listenumerosromains">
+                <li id="equipes"><h3>Formation des équipes :</h3>
+                Une liste complète des stagiaires est divisée en équipe de 3 joueurs grâce à une fonction « Random ».</li>
+                <li id="plateau"><h3>Plateau de jeu : </h3>
+                Le plateau est rond divisé en 6 parts égales. Chacune de ces parts est divisée en partant de la circonférence du plateau jusqu’au centre en 6 parties qui représentent le parcours de chaque équipe, le goal, et l’arrivée qui est donc au centre. Illustration.</li>
+                <li id="parcours"><h3>Parcours :</h3>
+                Chaque équipe est représentée par un pion dont la position de départ est à l’extérieur du plateau en face de son trajet. Les équipes avancent simultanément d’une case se retrouvant ainsi sur la première case de leur parcours ; une question leur est posée. Dès qu’une équipe a répondu correctement à la question qui lui est posée, elle peut avancer à la case suivante, et ce jusqu’à qu’elle ait atteint le centre du plateau.</li>
+                <li id="questions"><h3>Questions :</h3>
+                Dans le jeu initial (Experience Brussels) les questions posées avaient pour thème la ville de Bruxelles déclinée dans 6 domaines (histoire, géographie, la bd, communes, statistiques, personnages), dans notre Hack, les questions auront pour thème l’apprentissage du développement web décliné en 6 domaines qui correspondent aux matières des cours donnés au sein de la formation : atelier pédagogique, français, anglais, algorithmes, html/css, programmation back end. A chaque case du parcours de chaque équipe correspond une question pour chacune de ces matières. Pour parvenir à l’arrivée, une équipe aura donc obligatoirement répondu à une question de chaque matière. Les professeurs auront écrit via une interface dédiée assez de questions afin que chaque équipe dispose d’une question différente dans sa matière.</li>
+                <li id="pieges"><h3>Pièges :</h3>
+                Chaque équipe dispose d’une carte piège qui lui est donnée en début de partie. À n’importe quel moment de la partie, l’équipe peut poser cette carte piège sur le parcours d’une des autres équipes ; l’équipe ainsi piégée est stoppée dans son parcours, elle ne pourra reprendre sa course qu’après avoir répondu à la question piège.</li>
+                <li id="goal"><h3>Goal :</h3>
+                La première équipe arrivée au centre a gagné, les 3 membres de cette équipe gagnent individuellement les points dédiés.</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Définition du cahier des charges</h2>
+                <p>Le tableau suivant reprend les différents points à traiter nécessaires à la réalisation de ce jeu. Dans la première colonne, l’objet à réaliser, dans la deuxième colonne la forme supposée dudit objet ainsi que les techniques employées pour arriver à sa réalisation, dans la troisième colonne les domaines de compétences liés à la réalisation de chaque objet. La quatrième colonne figure par le biais d'un lien fictif, l’accès aux Tickets qui découperont les tâches à réaliser dans chaque domaine pour réaliser ce jeu.</p>
+                <table>
+					<thead>
+                        <tr>
+                            <th>Objet à réaliser</th>
+                            <th>Forme supposée, technique employée</th>
+                            <th>Domaine de compétence</th>
+                            <th>+</th>
+                        </tr>
+					</thead>
+					<tbody>
+                        <tr>
+                            <td>Interface joueurs</td>
+                            <td>Split screen, Questions, réponses/plateau de jeu</td>
+                            <td>Atelier pédagogique</td>
+                            <td>+</td>
+                        </tr>
+                        <tr>
+                            <td>Création modules jeux</td>
+                            <td>Jeux, HTML, CSS, JS	HTML, JS</td>
+                            <td>JS, UX design, algorithmique</td>
+                            <td>+</td>
+                        </tr>
+                        <tr>
+                            <td>CMS éditeurs</td>
+                            <td>CMS, PHP, UX, JS</td>
+                            <td>PHP, UX, JS	</td>
+                            <td>+</td>
+                        </tr>
+                        <tr>
+                            <td>Visuels	Dessin</td>
+                            <td>HTML, JS, CSS</td>
+                            <td>HTML, JS, UX design	</td>
+                            <td>+</td>
+                        </tr>
+                        <tr>
+                            <td>Juridique	Contraintes</td>
+                            <td>textes, référence</td>
+                            <td>Atelier pédagogique, français</td>
+                            <td>+</td>
+                        </tr>
+                        <tr>
+                            <td>Gestion SCRUM, Schéma AGILE, dessin UML</td>
+                            <td>création des tickets sur Trello</td>
+                            <td>Atelier pédagogique, Programmation</td>
+                            <td>+</td>
+                        </tr>
+                        <tr>
+                            <td>Technico-commercial</td>
+                            <td>Recherche concurrentielle, création de débouchés, exploitation</td>
+                            <td>Atelier pédagogique</td>
+                            <td>+</td>
+                        </tr>
+                        <tr>
+                            <td>Règle du jeu, rubrique Aide du jeu</td>
+                            <td>Texte découpé</td>
+                            <td>Français</td>
+                            <td>+</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h2 id="conclusion">Conclusion</h2>
+                <p>18 cerveaux sont plus qu’un, ce cahier des charges est voué à être enrichi, toutes vos idées, sur la forme, l’usage et les moyens de réalisation ou évolution sont les bienvenus.</p>
+            </section>
+        </main>
+        <aside></aside>
+		<footer>
+            <p>Contacts, références et toutes les mentions nécessaires ou utiles : kieran Labarrère pour le CF2M. </p>
+		</footer>
+	</body>
+</html>

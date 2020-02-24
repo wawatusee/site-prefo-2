@@ -1,0 +1,344 @@
+
+/*ACCUEIL*/
+/*BODY*/
+body{
+  /*annule les marges du navigateur*/
+  margin: 0;padding: 0;
+  /*background: #E84385;*/
+  font-family:Helvetica,Arial,sans-Serif;
+}
+
+/* TITRES */
+h1{
+	color:black;
+  text-align: center ;
+  line-height: 110px;
+  }
+
+/* STRUCTURES */
+header{
+  position: fixed;
+}
+
+section{
+	
+}
+article{
+	
+}
+aside{
+  float: left;
+	width: 15%;
+}
+/*tableau*/
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+td,th
+{
+    border: 1px solid black;
+}
+/* FOOTER */
+footer{
+  width: 100%;height: 100px;
+  clear: both;
+}
+
+footer p{
+  color: white;
+  line-height: 100px;text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/*EXPOSITION*/
+#exposition{
+  /*change la couleur de fond pour exposition*/
+  background: #E84385;
+}
+#exposition header {
+height:150px;width: 100%;
+background-image: url(../images/be_banniere.png);background-repeat: no-repeat;
+background-position: center;
+background-color: white;
+border-bottom: 20px solid #E7E747;
+}
+#exposition header h1{
+  margin: 0;
+}
+.thehack{
+  position: absolute;
+  top: 90px;
+  right: 15px;
+  transform: rotate(15deg);
+}
+/*NAV*/
+#exposition #principal{
+  float: left;
+  background-color: #E84385;
+  width: 15%;
+  margin-top: 170px;
+}
+#exposition #principal ul{
+position: fixed;
+}
+
+#exposition #principal ul li{
+  list-style-type: none;
+  padding-top: 5px;
+}
+#exposition #principal ul li a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2em;
+  border: none;
+}
+#exposition #principal ul li a:hover:before {
+  content:" » ";
+}
+#exposition #principal ul li a:hover {
+  background-color:rgba(256, 256, 256, 0.5);
+  text-decoration:none;
+  border: 1px solid white;
+  }
+#exposition #secondaire {
+ text-align: center ;
+}
+
+#exposition #secondaire ul li {
+  display: inline-block;
+}
+
+#exposition #secondaire ul li a {
+  display: block;
+  width: 200px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+}
+/*EXPOSITION MAIN*/
+#exposition main{
+  float: left;
+  width: 70%;
+  background-color: white;
+  margin-top: 170px;
+}
+#exposition h2{
+  color: white;
+  background-color: #6A0773;
+  width: 50%;
+  padding-left: 30px;
+}
+#exposition h1,h2,h3,h4{
+}
+#exposition section {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+#exposition footer{
+  background-color:#765099;
+  border-top: 20px solid #E7E747;
+}
+/*MAIN NAV*/
+.listenumerosromains li{
+    list-style-type: upper-roman;
+}
+/*ENTREPRISE*/
+/*Couleurs employées : #389EF0, bleu*/
+/*change la couleur de fond pour entreprise*/
+#entreprise{
+background:#389EF0;
+  }
+#entreprise h1{
+color:white;
+  }
+#entreprise header {
+height:150px;width: 100%;
+background-image: url(../images/entp-banniere.jpg);background-repeat: no-repeat;
+background-position: right;
+background-color: #389EF0;
+border-bottom: 20px solid white;
+}
+#entreprise header h1{
+  margin: 0;
+}
+.entreprise-logo{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+/*NAV*/
+#entreprise #principal{
+  float: left;
+  background-color: #389EF0;
+  width: 15%;
+  margin-top: 170px;
+}
+#entreprise #principal ul{
+position: fixed;
+}
+
+#entreprise #principal ul li{
+  list-style-type: none;
+  padding-top: 5px;
+}
+#entreprise #principal ul li a {
+	color:white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2em;
+  border: none;
+}
+#entreprise #principal ul li a:hover:before {
+  content:"| ";
+}
+#entreprise #principal ul li a:hover {
+  background-color:rgba(256, 256, 256, 0.5);
+  text-decoration: underline;
+  }
+#entreprise #secondaire {
+ text-align: center ;
+}
+
+#entreprise #secondaire ul li {
+  display: inline-block;
+}
+
+#entreprise #secondaire ul li a {
+  display: block;
+  width: 200px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+}
+/*ENTREPRISE MAIN*/
+#entreprise main{
+  float: left;
+  width: 70%;
+  background-color: white;
+  margin-top: 170px;
+}
+#entreprise h2,h3,h4{
+}
+#entreprise h2{
+	color:#3194fe;
+  font-size:1.5em;
+  padding-left: 30px;
+}
+#entreprise h3{
+	color:darkgrey;
+  font-size:1.1em;
+  padding-left: 30px;
+}
+
+#entreprise section {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+#entreprise footer{
+  background-color:#389EF0;
+  border-top: 20px solid white;
+}
+/*PREFO-WEB*/
+/*id=prefo-web*/
+#prefo-web{
+background:#389EF0;
+  }
+#prefo-web h1{
+color:white;
+  }
+#prefo-web header {
+height:150px;width: 100%;
+background-image: url(../images/cf2m-accueil.png);background-repeat: no-repeat; 
+background-position: left;
+background-color: #069fdf;
+border-bottom: 20px solid white;
+}
+#prefo-web header h1{
+  margin: 0;
+}
+.prefo-web-logo{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+/*NAV*/
+#prefo-web #principal{
+  float: left;
+  background-color: #389EF0;
+  width: 15%;
+  margin-top: 170px;
+}
+#prefo-web #principal ul{
+position: fixed;
+}
+
+#prefo-web #principal ul li{
+  list-style-type: none;
+  padding-top: 5px;
+}
+#prefo-web #principal ul li a {
+	color:white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2em;
+  border: none;
+}
+#prefo-web #principal ul li a:hover:before {
+  content:"| ";
+}
+#prefo-web #principal ul li a:hover {
+  background-color:rgba(256, 256, 256, 0.5);
+  text-decoration: underline;
+  }
+#prefo-web #secondaire {
+ text-align: center ;
+ visibility: hidden;
+}
+
+#prefo-web #secondaire ul li {
+  display: inline-block;
+}
+
+#prefo-web #secondaire ul li a {
+  display: block;
+  width: 200px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+}
+/*prefo-web MAIN*/
+#prefo-web main{
+  float: left;
+  width: 70%;
+  background-color: white;
+  margin-top: 170px;
+}
+#prefo-web h2,h3,h4{
+}
+#prefo-web h2{
+	color:#3194fe;
+  font-size:1.5em;
+  padding-left: 30px;
+}
+#prefo-web h3{
+	color:darkgrey;
+  font-size:1.1em;
+  padding-left: 30px;
+}
+
+#prefo-web section {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+#prefo-web footer{
+  background-color:#389EF0;
+border-top: 20px solid white;
+}
